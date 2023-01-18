@@ -1,0 +1,10 @@
+<p>usuarios works!</p>
+<h1>consumir api users</h1>
+
+<section *ngFor="let item of listado">
+  <!-- <pre>{{item |json }}</pre> objetos completos -->
+  <p>{{item.id + ' '+ item.email}}</p>
+  <p>{{item.address.street}}</p>
+</section>
+
+<!-- tarea  SOLO EL RETO -->
